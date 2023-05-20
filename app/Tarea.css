@@ -1,0 +1,32 @@
+.task-item {
+    cursor: pointer;
+}
+
+.task-content {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.7) 2px solid;
+    gap: 10px;
+}
+
+.task-content div {
+    flex: 1;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.task-content div:hover {
+    background-color: #F45050;
+}
+
+.task-item .taskTitle {
+
+}
